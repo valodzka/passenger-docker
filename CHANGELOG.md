@@ -1,3 +1,17 @@
+## not released
+ * Compile all CRuby versions from source to ensure uniformity and YJIT capability in versions 3.1+
+ * Use Ruby 3.2.x by default
+ * Upgraded to JRuby 9.3.10.0
+ * Upgraded to JRuby 9.4.3.0
+
+## 2.5.1 (release date: 2023-06-14)
+ * Upgraded to Phusion Passenger 6.0.18 (from 6.0.17).
+ * Upgraded to Ruby 2.7.8
+ * Upgraded to Ruby 3.0.6
+ * Upgraded to Ruby 3.1.4
+ * Upgraded to Ruby 3.2.2
+ * Upgraded Node 16 LTS -> 18 LTS.
+
 ## 2.5.0 (release date: 2023-01-26)
  * Upgraded to Phusion Passenger 6.0.17 (from 6.0.16).
  * Added a Ruby 3.2.0 image
@@ -5,7 +19,7 @@
  * Change to installing Node via Node Source (in Ruby images) instead of using outdated distro version, Node images already did this.
 
 ## 2.4.1 (release date: 2022-12-20)
- * Fix tmpdir issue with Passenger 6.0.16
+ * Fixed tmpdir issue with Passenger 6.0.16
 
 ## 2.4.0 (release date: 2022-12-19)
  * Removed Ruby 2.6 (end of life was March 31, 2022)
